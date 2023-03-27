@@ -3,11 +3,16 @@ import './App.css'
 import Home from './pages/Home/Home'
 import { UserList } from './components/UserList/UserList'
 import ArticleList from './components/Article/ArticlesList'
+import { GlobalStyle } from './styles/global'
 
 
 function App() {
   return (
-    <ArticleList/>
+    <div>
+       <ArticleList/>
+       <GlobalStyle/>
+    </div>
+   
   )
 }
 
