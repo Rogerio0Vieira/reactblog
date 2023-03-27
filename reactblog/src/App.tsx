@@ -1,11 +1,12 @@
 import { ThemeProvider } from 'styled-components'
 import './App.css'
 import Home from './pages/Home/Home'
+import { UserList } from './components/UserList/UserList'
 
 
 function App() {
   return (
-      <Home/>
+      <div></div>
   )
 }
 
