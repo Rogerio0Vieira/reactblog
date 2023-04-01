@@ -4,7 +4,6 @@ import Home from '../pages/Home/Home';
 
 
 
-
 const RoutesApp = () => (
   <BrowserRouter>
       <Routes>
